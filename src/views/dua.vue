@@ -156,576 +156,659 @@
         ],
         winnerResult: null,
         slices: [
+
     {
         "direktorat": "FINANCE",
         "color": "#EE3291",
         "text": "jhjhgjh far",
         "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "IT",
-        "color": "#5CBA58",
-        "text": "Agus Budi",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "MARKETING",
-        "color": "#3577BB",
-        "text": "Agus Susanto",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "PLANNING",
-        "color": "#3B6D86",
-        "text": "Akmal",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "PLANNING",
-        "color": "#3B6D86",
-        "text": "Alexander Rumawas",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "MKT CAR",
-        "color": "#A53D99",
-        "text": "Andree Cresenda",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "FINANCE",
-        "color": "#EE3291",
-        "text": "Andri Purba",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "IT",
-        "color": "#5CBA58",
-        "text": "Aspri Sigit",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "IT",
-        "color": "#5CBA58",
-        "text": "Asrul Fadillah",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "MARKETING",
-        "color": "#3577BB",
-        "text": "Bramanti Dwi",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "RISK MANAGEMENT",
-        "color": "#FF0000",
-        "text": "Christin Melinda",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "MKT MC",
-        "color": "#D2D4D5",
-        "text": "Chynthia Dewi",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "RISK MANAGEMENT",
-        "color": "#FF0000",
-        "text": "Deky Soesilo",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "IT",
-        "color": "#5CBA58",
-        "text": "Deny Yuliantoro",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "IT",
-        "color": "#5CBA58",
-        "text": "Dery Darmawan",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "IT",
-        "color": "#5CBA58",
-        "text": "Dian Iskandar",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "IT",
-        "color": "#5CBA58",
-        "text": "Dian Perdhana",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "PLANNING",
-        "color": "#3B6D86",
-        "text": "Dimas Septiandri",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "MKT CAR",
-        "color": "#A53D99",
-        "text": "Dito Kurniawan",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "MKT MC",
-        "color": "#D2D4D5",
-        "text": "Dwi Novita",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "PLANNING",
-        "color": "#3B6D86",
-        "text": "Eko Irianto",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "IT",
-        "color": "#5CBA58",
-        "text": "Eko Sulistiyo",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "HRD",
-        "color": "#142E5F",
-        "text": "Erni",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "IT",
-        "color": "#5CBA58",
-        "text": "Fajar Nugroho",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "MKT MC",
-        "color": "#D2D4D5",
-        "text": "Fani Nurfitriati",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "MKT MC",
-        "color": "#D2D4D5",
-        "text": "Fitri Yuningsih",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "IT",
-        "color": "#5CBA58",
-        "text": "Fransiska Amalia",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "MKT MC",
-        "color": "#D2D4D5",
-        "text": "FX Herwindra S",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "MKT MC",
-        "color": "#D2D4D5",
-        "text": "Gilang Herdinanta",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "RISK MANAGEMENT",
-        "color": "#FF0000",
-        "text": "Giovany Wihelmina",
-        "weight": "0",
-        "labelColor": "#fff"
-    },
-    {
-        "direktorat": "FINANCE",
-        "color": "#EE3291",
-        "text": "Hendra Utama",
-        "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "2"
     },
     {
         "direktorat": "HRD",
         "color": "#142E5F",
         "text": "Hengki",
         "weight": "1",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "46"
     },
+    {
+        "direktorat": "IT",
+        "color": "#5CBA58",
+        "text": "Agus Budi",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "3"
+    },
+    {
+        "direktorat": "MARKETING",
+        "color": "#3577BB",
+        "text": "Agus Susanto",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "4"
+    },
+    {
+        "direktorat": "PLANNING",
+        "color": "#3B6D86",
+        "text": "Akmal",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "5"
+    },
+    {
+        "direktorat": "PLANNING",
+        "color": "#3B6D86",
+        "text": "Alexander Rumawas",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "6"
+    },
+    {
+        "direktorat": "MKT CAR",
+        "color": "#A53D99",
+        "text": "Andree Cresenda",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "9"
+    },
+    {
+        "direktorat": "FINANCE",
+        "color": "#EE3291",
+        "text": "Andri Purba",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "11"
+    },
+    {
+        "direktorat": "IT",
+        "color": "#5CBA58",
+        "text": "Aspri Sigit",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "12"
+    },
+    {
+        "direktorat": "IT",
+        "color": "#5CBA58",
+        "text": "Asrul Fadillah",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "13"
+    },
+    {
+        "direktorat": "MARKETING",
+        "color": "#3577BB",
+        "text": "Bramanti Dwi",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "15"
+    },
+    {
+        "direktorat": "RISK MANAGEMENT",
+        "color": "#FF0000",
+        "text": "Christin Melinda",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "17"
+    },
+    {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "Chynthia Dewi",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "18"
+    },
+    {
+        "direktorat": "RISK MANAGEMENT",
+        "color": "#FF0000",
+        "text": "Deky Soesilo",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "20"
+    },
+    {
+        "direktorat": "IT",
+        "color": "#5CBA58",
+        "text": "Deny Yuliantoro",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "21"
+    },
+    {
+        "direktorat": "IT",
+        "color": "#5CBA58",
+        "text": "Dery Darmawan",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "22"
+    },
+    {
+        "direktorat": "IT",
+        "color": "#5CBA58",
+        "text": "Dian Iskandar",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "24"
+    },
+    {
+        "direktorat": "IT",
+        "color": "#5CBA58",
+        "text": "Dian Perdhana",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "25"
+    },
+    {
+        "direktorat": "PLANNING",
+        "color": "#3B6D86",
+        "text": "Dimas Septiandri",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "26"
+    },
+    {
+        "direktorat": "MKT CAR",
+        "color": "#A53D99",
+        "text": "Dito Kurniawan",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "28"
+    },
+    {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "Dwi Novita",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "30"
+    },
+    {
+        "direktorat": "PLANNING",
+        "color": "#3B6D86",
+        "text": "Eko Irianto",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "31"
+    },
+    {
+        "direktorat": "IT",
+        "color": "#5CBA58",
+        "text": "Eko Sulistiyo",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "32"
+    },
+    {
+        "direktorat": "HRD",
+        "color": "#142E5F",
+        "text": "Erni",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "33"
+    },
+    {
+        "direktorat": "IT",
+        "color": "#5CBA58",
+        "text": "Fajar Nugroho",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "35"
+    },
+    {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "Fani Nurfitriati",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "36"
+    },
+    {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "Fitri Yuningsih",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "37"
+    },
+    {
+        "direktorat": "IT",
+        "color": "#5CBA58",
+        "text": "Fransiska Amalia",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "38"
+    },
+    {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "FX Herwindra S",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "40"
+    },
+    {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "Gilang Herdinanta",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "41"
+    },
+    {
+        "direktorat": "RISK MANAGEMENT",
+        "color": "#FF0000",
+        "text": "Giovany Wihelmina",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "42"
+    },
+    {
+        "direktorat": "FINANCE",
+        "color": "#EE3291",
+        "text": "Hendra Utama",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "44"
+    },
+  
     {
         "direktorat": "RISK MANAGEMENT",
         "color": "#FF0000",
         "text": "Herlina",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "47"
     },
     {
         "direktorat": "FINANCE",
         "color": "#EE3291",
         "text": "Iman Rismawan",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "50"
     },
     {
         "direktorat": "MKT MC",
         "color": "#D2D4D5",
         "text": "Ismi Hidayatur",
         "weight": "1",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "51"
     },
     {
         "direktorat": "IT",
         "color": "#5CBA58",
         "text": "Jofinus Halim",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "52"
     },
     {
         "direktorat": "MKT MC",
         "color": "#D2D4D5",
         "text": "Johannes Ricky",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "53"
     },
     {
         "direktorat": "FINANCE",
         "color": "#EE3291",
         "text": "Jony Nus",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "54"
     },
     {
         "direktorat": "PLANNING",
         "color": "#3B6D86",
         "text": "Karina Putri",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "55"
     },
     {
         "direktorat": "IT",
         "color": "#5CBA58",
         "text": "Kiki Krisnawati",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "56"
     },
     {
         "direktorat": "FINANCE",
         "color": "#EE3291",
         "text": "Lidya Christie",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "57"
     },
     {
         "direktorat": "PLANNING",
         "color": "#3B6D86",
         "text": "Lilia Wati",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "58"
     },
     {
         "direktorat": "HRD",
         "color": "#142E5F",
         "text": "Maria Anne",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "60"
     },
     {
         "direktorat": "MKT CAR",
         "color": "#A53D99",
         "text": "Marthin Golto",
         "weight": "1",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "61"
     },
     {
         "direktorat": "PLANNING",
         "color": "#3B6D86",
         "text": "Mela Oktavia",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "62"
     },
     {
         "direktorat": "HRD",
         "color": "#142E5F",
         "text": "Minetta Roselani",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "63"
     },
     {
         "direktorat": "PLANNING",
         "color": "#3B6D86",
         "text": "Mochamad Dede",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "64"
     },
     {
         "direktorat": "FINANCE",
         "color": "#EE3291",
         "text": "Mochammad Tirta",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "65"
     },
     {
         "direktorat": "HRD",
         "color": "#142E5F",
         "text": "Muh Hasiruddin",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "66"
     },
     {
         "direktorat": "PLANNING",
         "color": "#3B6D86",
         "text": "Muhammad Azis",
         "weight": "1",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "67"
     },
     {
         "direktorat": "PLANNING",
         "color": "#3B6D86",
         "text": "Muhammad Sholikin",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "68"
     },
     {
         "direktorat": "FINANCE",
         "color": "#EE3291",
         "text": "Novi Maryanti",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "69"
     },
     {
         "direktorat": "PLANNING",
         "color": "#3B6D86",
         "text": "Novielly",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "70"
     },
     {
         "direktorat": "MKT MC",
         "color": "#D2D4D5",
         "text": "Olyvia",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "71"
     },
     {
         "direktorat": "FINANCE",
         "color": "#EE3291",
         "text": "Pandu Perdana",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "72"
     },
     {
         "direktorat": "RISK MANAGEMENT",
         "color": "#FF0000",
         "text": "Ramos Rialdo",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "75"
     },
     {
         "direktorat": "MKT MC",
         "color": "#D2D4D5",
         "text": "Randy Pilar",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "76"
     },
     {
         "direktorat": "MKT CAR",
         "color": "#A53D99",
         "text": "Revelino Jerincho",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "78"
     },
     {
         "direktorat": "MKT MC",
         "color": "#D2D4D5",
         "text": "Rian Rachmawan",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "79"
     },
     {
         "direktorat": "PLANNING",
         "color": "#3B6D86",
         "text": "Rias Andrika",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "80"
     },
     {
         "direktorat": "MKT CAR",
         "color": "#A53D99",
         "text": "Rizka Yunidarini",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "81"
     },
     {
         "direktorat": "IT",
         "color": "#5CBA58",
         "text": "Rizma Rosellini",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "82"
     },
     {
         "direktorat": "HRD",
         "color": "#142E5F",
         "text": "Rohadih",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "84"
     },
     {
         "direktorat": "HRD",
         "color": "#142E5F",
         "text": "Romi",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "85"
     },
     {
         "direktorat": "MARKETING",
         "color": "#3577BB",
         "text": "Rudy Gunawan",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "87"
     },
     {
         "direktorat": "IT",
         "color": "#5CBA58",
         "text": "Rully Kurniawan",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "88"
     },
     {
         "direktorat": "HRD",
         "color": "#142E5F",
         "text": "Sandi Jua",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "89"
     },
     {
         "direktorat": "IT",
         "color": "#5CBA58",
         "text": "Sempurna Purba",
         "weight": "1",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "90"
     },
     {
         "direktorat": "MKT CAR",
         "color": "#A53D99",
         "text": "Sony Dwi",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "91"
     },
     {
         "direktorat": "IT",
         "color": "#5CBA58",
         "text": "Stefanny Lowendo",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "93"
     },
     {
         "direktorat": "RISK MANAGEMENT",
         "color": "#FF0000",
         "text": "Theresia Agustina",
         "weight": "1",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "95"
     },
     {
         "direktorat": "IT",
         "color": "#5CBA58",
         "text": "Thomson Haposan",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "96"
     },
     {
         "direktorat": "MARKETING",
         "color": "#3577BB",
         "text": "Veramutia Dahlan",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "97"
     },
     {
         "direktorat": "IT",
         "color": "#5CBA58",
         "text": "Vicky Agus",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "98"
     },
     {
         "direktorat": "IT",
         "color": "#5CBA58",
         "text": "Weningtyas Galuh",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "100"
     },
     {
         "direktorat": "FINANCE",
         "color": "#EE3291",
         "text": "Yesi Yuliana",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "102"
     },
     {
         "direktorat": "IT",
         "color": "#5CBA58",
         "text": "Yosep Nugroho",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "103"
     },
     {
         "direktorat": "HRD",
         "color": "#142E5F",
         "text": "Yudhi Gunawan",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "104"
     },
     {
         "direktorat": "MKT MC",
         "color": "#D2D4D5",
         "text": "Yudi Maulana",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "105"
     },
     {
         "direktorat": "MARKETING",
         "color": "#3577BB",
         "text": "Yuli Nurjanah",
         "weight": "1",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "106"
     },
     {
         "direktorat": "HRD",
         "color": "#142E5F",
         "text": "Zaelani Thaha",
         "weight": "0",
-        "labelColor": "#fff"
+        "labelColor": "#fff",
+        "id": "107"
     }
 ],
         isSpinning: false,
-        defaultWinner: 46,
+        defaultWinner: 1,
   
         sounds: {
           won: wonSound,

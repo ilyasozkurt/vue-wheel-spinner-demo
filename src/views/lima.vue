@@ -31,7 +31,7 @@
                     <h1 class="card-title text-primary">🎉 {{ winnerResult.text }} 🎉</h1>
                     <span>{{ winnerResult.direktorat }}</span> <br> <br>
                     <button type="button" class="btn mx-auto btn-primary text-white">
-                      <RouterLink to="/lima" class="text-white">Simpan & Putar Kembali</RouterLink>
+                      <RouterLink to="/" class="text-white">Simpan & Putar Kembali</RouterLink>
                     </button>
                   </div>
                 </div>
@@ -115,7 +115,7 @@
           },
           {
             "direktorat": "MKT CAR",
-            "color": "opacity: 0; background-color: #A53D99;  color: white;",
+            "color": "opacity: 100%; background-color: #A53D99;  color: white;",
             "text": "Marthin Golto",
             "weight": "1",
             "labelColor": "#fff",
@@ -156,14 +156,6 @@
         ],
         winnerResult: null,
         slices: [
-        {
-        "direktorat": "MKT CAR",
-        "color": "#A53D99",
-        "text": "Marthin Golto",
-        "weight": "1",
-        "labelColor": "#fff",
-        "id": "61"
-    },
     {
         "direktorat": "FINANCE",
         "color": "#EE3291",
@@ -171,6 +163,14 @@
         "weight": "0",
         "labelColor": "#fff",
         "id": "2"
+    },
+    {
+        "direktorat": "PLANNING",
+        "color": "#3B6D86",
+        "text": "Muhammad Azis",
+        "weight": "1",
+        "labelColor": "#fff",
+        "id": "67"
     },
     {
         "direktorat": "IT",
@@ -203,14 +203,6 @@
         "weight": "0",
         "labelColor": "#fff",
         "id": "6"
-    },
-    {
-        "direktorat": "MKT CAR",
-        "color": "#A53D99",
-        "text": "Andree Cresenda",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "9"
     },
     {
         "direktorat": "FINANCE",
@@ -299,14 +291,6 @@
         "weight": "0",
         "labelColor": "#fff",
         "id": "26"
-    },
-    {
-        "direktorat": "MKT CAR",
-        "color": "#A53D99",
-        "text": "Dito Kurniawan",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "28"
     },
     {
         "direktorat": "PLANNING",
@@ -420,7 +404,6 @@
         "labelColor": "#fff",
         "id": "58"
     },
-    
     {
         "direktorat": "PLANNING",
         "color": "#3B6D86",
@@ -445,14 +428,7 @@
         "labelColor": "#fff",
         "id": "65"
     },
-    {
-        "direktorat": "PLANNING",
-        "color": "#3B6D86",
-        "text": "Muhammad Azis",
-        "weight": "1",
-        "labelColor": "#fff",
-        "id": "67"
-    },
+   
     {
         "direktorat": "PLANNING",
         "color": "#3B6D86",
@@ -494,28 +470,12 @@
         "id": "75"
     },
     {
-        "direktorat": "MKT CAR",
-        "color": "#A53D99",
-        "text": "Revelino Jerincho",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "78"
-    },
-    {
         "direktorat": "PLANNING",
         "color": "#3B6D86",
         "text": "Rias Andrika",
         "weight": "0",
         "labelColor": "#fff",
         "id": "80"
-    },
-    {
-        "direktorat": "MKT CAR",
-        "color": "#A53D99",
-        "text": "Rizka Yunidarini",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "81"
     },
     {
         "direktorat": "IT",
@@ -548,14 +508,6 @@
         "weight": "1",
         "labelColor": "#fff",
         "id": "90"
-    },
-    {
-        "direktorat": "MKT CAR",
-        "color": "#A53D99",
-        "text": "Sony Dwi",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "91"
     },
     {
         "direktorat": "IT",
@@ -631,7 +583,7 @@
     }
 ],
         isSpinning: false,
-        defaultWinner: 0,
+        defaultWinner: 1,
   
         sounds: {
           won: wonSound,
