@@ -29,7 +29,7 @@
                   </div>
                   <div class="card-body p-4">
                     <h1 class="card-title text-primary">🎉 {{ winnerResult.text }} 🎉</h1>
-                    <span>{{ winnerResult.direktorat }}</span> <br> <br>
+                     <br>
                     <button type="button" class="btn mx-auto btn-primary text-white">
                       <RouterLink to="/dua" class="text-white">Simpan & Putar Kembali</RouterLink>
                     </button>

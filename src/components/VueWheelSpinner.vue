@@ -37,11 +37,11 @@ const props = defineProps({
   },
   extraSpins: {
     type: Number,
-    default: 10
+    default: 20
   },
   spinDuration: {
     type: Number,
-    default: 4000
+    default: 15000
   },
   cursorAngle: {
     type: Number,

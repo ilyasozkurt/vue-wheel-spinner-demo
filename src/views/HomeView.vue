@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-7 mx-auto">
       <ShiningDots :color="shiningDotsColor" :border-color="shiningDotsBorderColor" :shine-color="shiningDotsShineColor"
         :border-width="shiningDotsBorderWidth" :size="shiningDotsSize" :count="shiningDotsCount">
 
@@ -25,11 +25,11 @@
             <div class="modalx">
               <div class=" card w-50 mx-auto text-center bd-radi ">
                 <div class="bg-primary text-white p-2">
-                  <h4>Peserta Terpilih</h4>
+                  <h4>PHOENIX PRESENTER</h4>
                 </div>
                 <div class="card-body p-4">
                   <h1 class="card-title text-primary">🎉 {{ winnerResult.text }} 🎉</h1>
-                  <span>{{ winnerResult.direktorat }}</span> <br> <br>
+                   <br>
                   <button type="button" class="btn mx-auto btn-primary text-white">
                     <RouterLink to="/satu" class="text-white">Simpan & Putar Kembali</RouterLink>
                   </button>
@@ -47,7 +47,7 @@
     </div>
 
 
-    <div class="col-sm-4 p-3">
+    <!-- <div class="col-sm-4 p-3">
       <h3 class=" mt-6" style="padding-top: 40px;">Daftar Nama Terpilih:</h3>
       <div class="card p-4 bg-light">
 
@@ -57,7 +57,7 @@
 
       </div>
 
-    </div>
+    </div> -->
   </div>
 
 </template>
@@ -926,7 +926,7 @@ export default {
       cursorImage,
       cursorAngle: 180,
       cursorPosition: "edge",
-      cursorDistance: 0,
+      cursorDistance: -40,
       shiningDotsColor: "#ffffff",
       shiningDotsShineColor: "#ffd800",
       shiningDotsBorderColor: "#1e254c",
