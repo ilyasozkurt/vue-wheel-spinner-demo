@@ -10,21 +10,37 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/about',
-      name: 'about',
+      path: '/satu',
+      name: 'satu',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
+      component: () => import('../views/satu.vue')
     },
     {
-        path: '/tiga',
-        name: 'tiga',
-        // route level code-splitting
-        // this generates a separate chunk (About.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () => import('../views/TigaView.vue')
-      }
+      path: '/dua',
+      name: 'dua',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/dua.vue')
+    },
+    {
+      path: '/tiga',
+      name: 'tiga',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/tiga.vue')
+    },
+    {
+      path: '/empat',
+      name: 'empat',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/empat.vue')
+    }
   ]
 })
 

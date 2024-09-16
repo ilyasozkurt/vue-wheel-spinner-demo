@@ -57,7 +57,7 @@
         }
     }
 
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+    window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', () => {
         const storedTheme = getStoredTheme()
         if (storedTheme !== 'light' && storedTheme !== 'dark') {
             setTheme(getPreferredTheme())

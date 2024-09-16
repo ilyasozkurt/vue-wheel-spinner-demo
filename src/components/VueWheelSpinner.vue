@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-import {onBeforeMount, onBeforeUnmount, onMounted, ref, watch} from 'vue';
+import { onBeforeMount, onBeforeUnmount, onMounted, ref, watch } from 'vue';
 
 const playgroundContainer = ref(null)
 const playgroundCanvas = ref(null);
@@ -41,7 +41,7 @@ const props = defineProps({
   },
   spinDuration: {
     type: Number,
-    default: 10000
+    default: 4000
   },
   cursorAngle: {
     type: Number,
@@ -130,7 +130,7 @@ function drawSlice(context, centerX, centerY, radius, startAngle, endAngle, fill
   context.beginPath();
   context.moveTo(centerX, centerY);
   context.arc(centerX, centerY, radius, degreesToRadians(startAngle), degreesToRadians(endAngle));
-  context.strokeStyle = 'black';
+  context.strokeStyle = fillColor;
   context.stroke();
   context.fillStyle = fillColor;
   context.fill();
@@ -146,7 +146,7 @@ function drawLabel(context, centerX, centerY, radius, startAngle, endAngle, fill
   context.textAlign = 'right';
   context.textBaseline = 'middle';
   context.fillStyle = getContrastingColor(fillColor);
-  context.font = 'bold 24px Titillium Web';
+  context.font = 'bold 12px Titillium Web';
   context.fillText(sliceLabel, radius - 10, 0);
   context.restore();
 }
@@ -343,7 +343,7 @@ function getCursorXY() {
 function positionCursor() {
 
   // Set cursor position
-  const {top, left, translateX, translateY, rotate} = getCursorXY();
+  const { top, left, translateX, translateY, rotate } = getCursorXY();
 
   cursor.value.style.top = top;
   cursor.value.style.left = left;
@@ -401,8 +401,8 @@ defineExpose({
 </script>
 
 <style scoped>
-
 .wheel-wrapper {
+  max-width: 100vw;
   width: 100%;
   position: relative;
   aspect-ratio: 1 / 1;
@@ -428,7 +428,6 @@ defineExpose({
 canvas {
   will-change: transform, width, height;
   aspect-ratio: 1 / 1;
-  width: 100%;
+  max-width: 100%;
 }
-
 </style>

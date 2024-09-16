@@ -4,21 +4,33 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-    <div class="relative flex min-h-screen flex-col w-full justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
-        <img src="https://play.tailwindcss.com/img/beams.jpg" alt=""
-            class="absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2" width="1308" />
-        <div
-            class="absolute inset-0 bg-[url(https://play.tailwindcss.com/img/grid.svg)] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]">
-        </div>
-        <div class="relative max-w-screen-xl  pt-10 pb-8 sm:mx-auto ">
-            <div class="px-3 shrink-0">
-                <RouterView />
-            </div>
-        </div>
+    <nav class="navbar navbar-expand-lg bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Navbar w/ text</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        Navbar text with an inline element
+      </span>
     </div>
-
-
-
-
-
+  </div>
+</nav>
+    <main class="container bg-white">
+        <RouterView />
+    </main>
 </template>
+
+
