@@ -31,7 +31,7 @@
                     <h1 class="card-title text-primary">🎉 {{ winnerResult.text }} 🎉</h1>
                      <br>
                     <button type="button" class="btn mx-auto btn-primary text-white">
-                      <RouterLink to="/empat" class="text-white">Simpan & Putar Kembali</RouterLink>
+                      <RouterLink to="/enam" class="text-white">Simpan & Putar Kembali</RouterLink>
                     </button>
                   </div>
                 </div>
@@ -727,7 +727,7 @@
     }
 ],
         isSpinning: false,
-        defaultWinner: 0,
+        defaultWinner: 30,
   
         sounds: {
           won: wonSound,

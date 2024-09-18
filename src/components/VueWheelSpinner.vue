@@ -41,7 +41,7 @@ const props = defineProps({
   },
   spinDuration: {
     type: Number,
-    default: 15000
+    default: 4000
   },
   cursorAngle: {
     type: Number,
@@ -130,7 +130,7 @@ function drawSlice(context, centerX, centerY, radius, startAngle, endAngle, fill
   context.beginPath();
   context.moveTo(centerX, centerY);
   context.arc(centerX, centerY, radius, degreesToRadians(startAngle), degreesToRadians(endAngle));
-  context.strokeStyle = fillColor;
+  context.strokeStyle = 'red';
   context.stroke();
   context.fillStyle = fillColor;
   context.fill();
