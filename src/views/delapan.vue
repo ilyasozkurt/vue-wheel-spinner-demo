@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-      <div class="col-sm-8">
+      <div class="col-sm-7 mx-auto">
         <ShiningDots :color="shiningDotsColor" :border-color="shiningDotsBorderColor" :shine-color="shiningDotsShineColor"
           :border-width="shiningDotsBorderWidth" :size="shiningDotsSize" :count="shiningDotsCount">
   
@@ -31,7 +31,7 @@
                     <h1 class="card-title text-primary">🎉 {{ winnerResult.text }} 🎉</h1>
                      <br>
                     <button type="button" class="btn mx-auto btn-primary text-white">
-                      <RouterLink to="/dua" class="text-white">Simpan & Putar Kembali</RouterLink>
+                      <RouterLink to="/empat" class="text-white">Simpan & Putar Kembali</RouterLink>
                     </button>
                   </div>
                 </div>
@@ -47,7 +47,7 @@
       </div>
   
   
-      <div class="col-sm-4 p-3">
+      <!-- <div class="col-sm-4 p-3">
         <h3 class=" mt-6" style="padding-top: 40px;">Daftar Nama Terpilih:</h3>
         <div class="card p-4 bg-light">
   
@@ -57,7 +57,7 @@
   
         </div>
   
-      </div>
+      </div> -->
     </div>
   
   </template>
@@ -91,7 +91,7 @@
           },
           {
             "direktorat": "CREDIT",
-            "color": "opacity: 0; background-color: #EEAF2F;",
+            "color": "opacity: 100%; background-color: #EEAF2F;",
             "text": "Rahman Torkis",
             "weight": "1",
             "labelColor": "#fff",
@@ -99,7 +99,7 @@
           },
           {
             "direktorat": "HRD",
-            "color": "opacity: 0; background-color: #142E5F;  color: white;",
+            "color": "opacity: 100%; background-color: #142E5F;  color: white;",
             "text": "Hengki",
             "weight": "1",
             "labelColor": "#fff",
@@ -156,13 +156,13 @@
         ],
         winnerResult: null,
         slices: [
-    {
-        "direktorat": "CREDIT",
-        "color": "#EEAF2F",
-        "text": "Rahman Torkis",
+        {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "Ismi Hidayatur",
         "weight": "1",
         "labelColor": "#fff",
-        "id": "1"
+        "id": "51"
     },
     {
         "direktorat": "FINANCE",
@@ -205,28 +205,12 @@
         "id": "6"
     },
     {
-        "direktorat": "CREDIT",
-        "color": "#EEAF2F",
-        "text": "Alvio Fiorrie",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "7"
-    },
-    {
         "direktorat": "MKT CAR",
         "color": "#A53D99",
         "text": "Andree Cresenda",
         "weight": "0",
         "labelColor": "#fff",
         "id": "9"
-    },
-    {
-        "direktorat": "CREDIT",
-        "color": "#EEAF2F",
-        "text": "Andrew Christian",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "10"
     },
     {
         "direktorat": "FINANCE",
@@ -253,28 +237,12 @@
         "id": "13"
     },
     {
-        "direktorat": "CREDIT",
-        "color": "#EEAF2F",
-        "text": "Avrillia Ika",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "14"
-    },
-    {
         "direktorat": "MARKETING",
         "color": "#3577BB",
         "text": "Bramanti Dwi",
         "weight": "0",
         "labelColor": "#fff",
         "id": "15"
-    },
-    {
-        "direktorat": "CREDIT",
-        "color": "#EEAF2F",
-        "text": "Cahyo Yudyono",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "16"
     },
     {
         "direktorat": "RISK MANAGEMENT",
@@ -315,14 +283,6 @@
         "weight": "0",
         "labelColor": "#fff",
         "id": "22"
-    },
-    {
-        "direktorat": "CREDIT",
-        "color": "#EEAF2F",
-        "text": "Dessy Estuningsih",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "23"
     },
     {
         "direktorat": "IT",
@@ -381,14 +341,6 @@
         "id": "32"
     },
     {
-        "direktorat": "HRD",
-        "color": "#142E5F",
-        "text": "Erni",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "33"
-    },
-    {
         "direktorat": "IT",
         "color": "#5CBA58",
         "text": "Fajar Nugroho",
@@ -419,14 +371,6 @@
         "weight": "0",
         "labelColor": "#fff",
         "id": "38"
-    },
-    {
-        "direktorat": "CREDIT",
-        "color": "#EEAF2F",
-        "text": "FX Bayu Triguno",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "39"
     },
     {
         "direktorat": "MKT MC",
@@ -461,14 +405,6 @@
         "id": "44"
     },
     {
-        "direktorat": "HRD",
-        "color": "#142E5F",
-        "text": "Hengki",
-        "weight": "1",
-        "labelColor": "#fff",
-        "id": "46"
-    },
-    {
         "direktorat": "RISK MANAGEMENT",
         "color": "#FF0000",
         "text": "Herlina",
@@ -484,14 +420,7 @@
         "labelColor": "#fff",
         "id": "50"
     },
-    {
-        "direktorat": "MKT MC",
-        "color": "#D2D4D5",
-        "text": "Ismi Hidayatur",
-        "weight": "1",
-        "labelColor": "#fff",
-        "id": "51"
-    },
+   
     {
         "direktorat": "IT",
         "color": "#5CBA58",
@@ -549,14 +478,6 @@
         "id": "58"
     },
     {
-        "direktorat": "HRD",
-        "color": "#142E5F",
-        "text": "Maria Anne",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "60"
-    },
-    {
         "direktorat": "MKT CAR",
         "color": "#A53D99",
         "text": "Marthin Golto",
@@ -573,14 +494,6 @@
         "id": "62"
     },
     {
-        "direktorat": "HRD",
-        "color": "#142E5F",
-        "text": "Minetta Roselani",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "63"
-    },
-    {
         "direktorat": "PLANNING",
         "color": "#3B6D86",
         "text": "Mochamad Dede",
@@ -595,14 +508,6 @@
         "weight": "0",
         "labelColor": "#fff",
         "id": "65"
-    },
-    {
-        "direktorat": "HRD",
-        "color": "#142E5F",
-        "text": "Muh Hasiruddin",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "66"
     },
     {
         "direktorat": "PLANNING",
@@ -651,14 +556,6 @@
         "weight": "0",
         "labelColor": "#fff",
         "id": "72"
-    },
-    {
-        "direktorat": "CREDIT",
-        "color": "#EEAF2F",
-        "text": "Rahman Effendi",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "73"
     },
     {
         "direktorat": "RISK MANAGEMENT",
@@ -717,30 +614,6 @@
         "id": "82"
     },
     {
-        "direktorat": "HRD",
-        "color": "#142E5F",
-        "text": "Rohadih",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "84"
-    },
-    {
-        "direktorat": "HRD",
-        "color": "#142E5F",
-        "text": "Romi",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "85"
-    },
-    {
-        "direktorat": "CREDIT",
-        "color": "#EEAF2F",
-        "text": "Ronny Haryadi",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "86"
-    },
-    {
         "direktorat": "MARKETING",
         "color": "#3577BB",
         "text": "Rudy Gunawan",
@@ -755,14 +628,6 @@
         "weight": "0",
         "labelColor": "#fff",
         "id": "88"
-    },
-    {
-        "direktorat": "HRD",
-        "color": "#142E5F",
-        "text": "Sandi Jua",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "89"
     },
     {
         "direktorat": "IT",
@@ -845,14 +710,6 @@
         "id": "103"
     },
     {
-        "direktorat": "HRD",
-        "color": "#142E5F",
-        "text": "Yudhi Gunawan",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "104"
-    },
-    {
         "direktorat": "MKT MC",
         "color": "#D2D4D5",
         "text": "Yudi Maulana",
@@ -867,14 +724,6 @@
         "weight": "1",
         "labelColor": "#fff",
         "id": "106"
-    },
-    {
-        "direktorat": "HRD",
-        "color": "#142E5F",
-        "text": "Zaelani Thaha",
-        "weight": "0",
-        "labelColor": "#fff",
-        "id": "107"
     }
 ],
         isSpinning: false,
@@ -888,7 +737,7 @@
           spinning: spinningSound,
         },
         cursorImage,
-        cursorAngle: 180,
+         cursorAngle: 0,
         cursorPosition: "edge",
         cursorDistance: 0,
         shiningDotsColor: "#ffffff",

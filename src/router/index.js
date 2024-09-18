@@ -12,10 +12,7 @@ const router = createRouter({
     {
       path: '/satu',
       name: 'satu',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/satu.vue')
+      component: () => import('../views/dua.vue')
     },
     {
       path: '/dua',
@@ -23,7 +20,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/dua.vue')
+      component: () => import('../views/enam.vue')
     },
     {
       path: '/tiga',
@@ -48,6 +45,46 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/lima.vue')
+    },
+    {
+      path: '/enam',
+      name: 'enam',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/enam.vue')
+    },
+    {
+      path: '/tujuh',
+      name: 'tujuh',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/tujuh.vue')
+    },
+    {
+      path: '/delapan',
+      name: 'delapan',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/delapan.vue')
+    },
+    {
+      path: '/sembilan',
+      name: 'sembilan',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/sembilan.vue')
+    },
+    {
+      path: '/sepuluh',
+      name: 'sepuluh',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/sepuluh.vue')
     }
   ]
 })

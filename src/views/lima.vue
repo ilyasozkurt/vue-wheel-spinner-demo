@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-      <div class="col-sm-8">
+      <div class="col-sm-7 mx-auto">
         <ShiningDots :color="shiningDotsColor" :border-color="shiningDotsBorderColor" :shine-color="shiningDotsShineColor"
           :border-width="shiningDotsBorderWidth" :size="shiningDotsSize" :count="shiningDotsCount">
   
@@ -31,7 +31,7 @@
                     <h1 class="card-title text-primary">🎉 {{ winnerResult.text }} 🎉</h1>
                      <br>
                     <button type="button" class="btn mx-auto btn-primary text-white">
-                      <RouterLink to="/" class="text-white">Simpan & Putar Kembali</RouterLink>
+                      <RouterLink to="/empat" class="text-white">Simpan & Putar Kembali</RouterLink>
                     </button>
                   </div>
                 </div>
@@ -47,7 +47,7 @@
       </div>
   
   
-      <div class="col-sm-4 p-3">
+      <!-- <div class="col-sm-4 p-3">
         <h3 class=" mt-6" style="padding-top: 40px;">Daftar Nama Terpilih:</h3>
         <div class="card p-4 bg-light">
   
@@ -57,7 +57,7 @@
   
         </div>
   
-      </div>
+      </div> -->
     </div>
   
   </template>
@@ -107,7 +107,7 @@
           },
           {
             "direktorat": "MKT MC",
-            "color": "opacity: 100%; background-color: #D2D4D5;",
+            "color": "opacity: 0; background-color: #D2D4D5;",
             "text": "Ismi Hidayatur",
             "weight": "1",
             "labelColor": "#fff",
@@ -115,7 +115,7 @@
           },
           {
             "direktorat": "MKT CAR",
-            "color": "opacity: 100%; background-color: #A53D99;  color: white;",
+            "color": "opacity: 0; background-color: #A53D99;  color: white;",
             "text": "Marthin Golto",
             "weight": "1",
             "labelColor": "#fff",
@@ -156,6 +156,14 @@
         ],
         winnerResult: null,
         slices: [
+        {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "Ismi Hidayatur",
+        "weight": "1",
+        "labelColor": "#fff",
+        "id": "51"
+    },
     {
         "direktorat": "FINANCE",
         "color": "#EE3291",
@@ -163,14 +171,6 @@
         "weight": "0",
         "labelColor": "#fff",
         "id": "2"
-    },
-    {
-        "direktorat": "PLANNING",
-        "color": "#3B6D86",
-        "text": "Muhammad Azis",
-        "weight": "1",
-        "labelColor": "#fff",
-        "id": "67"
     },
     {
         "direktorat": "IT",
@@ -203,6 +203,14 @@
         "weight": "0",
         "labelColor": "#fff",
         "id": "6"
+    },
+    {
+        "direktorat": "MKT CAR",
+        "color": "#A53D99",
+        "text": "Andree Cresenda",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "9"
     },
     {
         "direktorat": "FINANCE",
@@ -243,6 +251,14 @@
         "weight": "0",
         "labelColor": "#fff",
         "id": "17"
+    },
+    {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "Chynthia Dewi",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "18"
     },
     {
         "direktorat": "RISK MANAGEMENT",
@@ -293,6 +309,22 @@
         "id": "26"
     },
     {
+        "direktorat": "MKT CAR",
+        "color": "#A53D99",
+        "text": "Dito Kurniawan",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "28"
+    },
+    {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "Dwi Novita",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "30"
+    },
+    {
         "direktorat": "PLANNING",
         "color": "#3B6D86",
         "text": "Eko Irianto",
@@ -317,12 +349,44 @@
         "id": "35"
     },
     {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "Fani Nurfitriati",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "36"
+    },
+    {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "Fitri Yuningsih",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "37"
+    },
+    {
         "direktorat": "IT",
         "color": "#5CBA58",
         "text": "Fransiska Amalia",
         "weight": "0",
         "labelColor": "#fff",
         "id": "38"
+    },
+    {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "FX Herwindra S",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "40"
+    },
+    {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "Gilang Herdinanta",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "41"
     },
     {
         "direktorat": "RISK MANAGEMENT",
@@ -356,6 +420,7 @@
         "labelColor": "#fff",
         "id": "50"
     },
+   
     {
         "direktorat": "IT",
         "color": "#5CBA58",
@@ -363,6 +428,14 @@
         "weight": "0",
         "labelColor": "#fff",
         "id": "52"
+    },
+    {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "Johannes Ricky",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "53"
     },
     {
         "direktorat": "FINANCE",
@@ -405,6 +478,14 @@
         "id": "58"
     },
     {
+        "direktorat": "MKT CAR",
+        "color": "#A53D99",
+        "text": "Marthin Golto",
+        "weight": "1",
+        "labelColor": "#fff",
+        "id": "61"
+    },
+    {
         "direktorat": "PLANNING",
         "color": "#3B6D86",
         "text": "Mela Oktavia",
@@ -428,7 +509,14 @@
         "labelColor": "#fff",
         "id": "65"
     },
-   
+    {
+        "direktorat": "PLANNING",
+        "color": "#3B6D86",
+        "text": "Muhammad Azis",
+        "weight": "1",
+        "labelColor": "#fff",
+        "id": "67"
+    },
     {
         "direktorat": "PLANNING",
         "color": "#3B6D86",
@@ -454,6 +542,14 @@
         "id": "70"
     },
     {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "Olyvia",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "71"
+    },
+    {
         "direktorat": "FINANCE",
         "color": "#EE3291",
         "text": "Pandu Perdana",
@@ -470,12 +566,44 @@
         "id": "75"
     },
     {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "Randy Pilar",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "76"
+    },
+    {
+        "direktorat": "MKT CAR",
+        "color": "#A53D99",
+        "text": "Revelino Jerincho",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "78"
+    },
+    {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "Rian Rachmawan",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "79"
+    },
+    {
         "direktorat": "PLANNING",
         "color": "#3B6D86",
         "text": "Rias Andrika",
         "weight": "0",
         "labelColor": "#fff",
         "id": "80"
+    },
+    {
+        "direktorat": "MKT CAR",
+        "color": "#A53D99",
+        "text": "Rizka Yunidarini",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "81"
     },
     {
         "direktorat": "IT",
@@ -508,6 +636,14 @@
         "weight": "1",
         "labelColor": "#fff",
         "id": "90"
+    },
+    {
+        "direktorat": "MKT CAR",
+        "color": "#A53D99",
+        "text": "Sony Dwi",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "91"
     },
     {
         "direktorat": "IT",
@@ -574,6 +710,14 @@
         "id": "103"
     },
     {
+        "direktorat": "MKT MC",
+        "color": "#D2D4D5",
+        "text": "Yudi Maulana",
+        "weight": "0",
+        "labelColor": "#fff",
+        "id": "105"
+    },
+    {
         "direktorat": "MARKETING",
         "color": "#3577BB",
         "text": "Yuli Nurjanah",
@@ -583,7 +727,7 @@
     }
 ],
         isSpinning: false,
-        defaultWinner: 1,
+        defaultWinner: 0,
   
         sounds: {
           won: wonSound,
@@ -593,7 +737,7 @@
           spinning: spinningSound,
         },
         cursorImage,
-        cursorAngle: 180,
+         cursorAngle: 0,
         cursorPosition: "edge",
         cursorDistance: 0,
         shiningDotsColor: "#ffffff",

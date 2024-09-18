@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-      <div class="col-sm-8">
+      <div class="col-sm-7 mx-auto">
         <ShiningDots :color="shiningDotsColor" :border-color="shiningDotsBorderColor" :shine-color="shiningDotsShineColor"
           :border-width="shiningDotsBorderWidth" :size="shiningDotsSize" :count="shiningDotsCount">
   
@@ -47,7 +47,7 @@
       </div>
   
   
-      <div class="col-sm-4 p-3">
+      <!-- <div class="col-sm-4 p-3">
         <h3 class=" mt-6" style="padding-top: 40px;">Daftar Nama Terpilih:</h3>
         <div class="card p-4 bg-light">
   
@@ -57,7 +57,7 @@
   
         </div>
   
-      </div>
+      </div> -->
     </div>
   
   </template>
@@ -737,7 +737,7 @@
           spinning: spinningSound,
         },
         cursorImage,
-        cursorAngle: 180,
+         cursorAngle: 0,
         cursorPosition: "edge",
         cursorDistance: 0,
         shiningDotsColor: "#ffffff",
