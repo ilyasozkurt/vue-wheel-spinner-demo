@@ -157,482 +157,482 @@ export default {
       winnerResult: null,
       slices: [
         {
-          "color": "FINANCE",
+          "color": "#EE3292",
           "text": "Abu Muzoffar",
           "data": "0"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Agus Budi",
           "data": "1"
         },
         {
-          "color": "MARKETING",
+          "color": "#3577BB",
           "text": "Agus Susanto",
           "data": "2"
         },
         {
-          "color": "PLANNING",
+          "color": "#3B6D86",
           "text": "Akmal",
           "data": "3"
         },
         {
-          "color": "PLANNING",
+          "color": "#3B6D86",
           "text": "Alexander Rumawas",
           "data": "4"
         },
         {
-          "color": "CREDIT",
+          "color": "#EEAF2F",
           "text": "Alvio Fiorrie",
           "data": "5"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "Andarto",
           "data": "6"
         },
         {
-          "color": "MKT CAR",
+          "color": "#A53D99",
           "text": "Andree Cresenda",
           "data": "7"
         },
         {
-          "color": "CREDIT",
+          "color": "#EEAF2F",
           "text": "Andrew Christian",
           "data": "8"
         },
         {
-          "color": "FINANCE",
+          "color": "#EE3292",
           "text": "Andri Purba",
           "data": "9"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Aspri Sigit",
           "data": "10"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Asrul Fadillah",
           "data": "11"
         },
         {
-          "color": "CREDIT",
+          "color": "#EEAF2F",
           "text": "Avrillia Ika",
           "data": "12"
         },
         {
-          "color": "MARKETING",
+          "color": "#3577BB",
           "text": "Bramanti Dwi",
           "data": "13"
         },
         {
-          "color": "CREDIT",
+          "color": "#EEAF2F",
           "text": "Cahyo Yudyono",
           "data": "14"
         },
         {
-          "color": "RISK MANAGEMENT",
+          "color": "#FF0000",
           "text": "Christin Melinda",
           "data": "15"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "David Febrian",
           "data": "16"
         },
         {
-          "color": "RISK MANAGEMENT",
+          "color": "#FF0000",
           "text": "Deky Soesilo",
           "data": "17"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Deny Yuliantoro",
           "data": "18"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Dery Darmawan",
           "data": "19"
         },
         {
-          "color": "CREDIT",
+          "color": "#EEAF2F",
           "text": "Dessy Estuningsih",
           "data": "20"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Dian Iskandar",
           "data": "21"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Dian Perdhana",
           "data": "22"
         },
         {
-          "color": "PLANNING",
+          "color": "#3B6D86",
           "text": "Dimas Septiandri",
           "data": "23"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "Dirgo Honnesa",
           "data": "24"
         },
         {
-          "color": "MKT CAR",
+          "color": "#A53D99",
           "text": "Dito Kurniawan",
           "data": "25"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "Donna Astuti",
           "data": "26"
         },
         {
-          "color": "PLANNING",
+          "color": "#3B6D86",
           "text": "Eko Irianto",
           "data": "27"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Eko Sulistiyo",
           "data": "28"
         },
         {
-          "color": "HRD",
+          "color": "#142E5F",
           "text": "Erni",
           "data": "29"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "Erwin Widiarto",
           "data": "30"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Fajar Nugroho",
           "data": "31"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Fransiska Amalia",
           "data": "32"
         },
         {
-          "color": "CREDIT",
+          "color": "#EEAF2F",
           "text": "FX Bayu Triguno",
           "data": "33"
         },
         {
-          "color": "RISK MANAGEMENT",
+          "color": "#FF0000",
           "text": "Giovany Wihelmina",
           "data": "34"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "Hendra Ilham",
           "data": "35"
         },
         {
-          "color": "FINANCE",
+          "color": "#EE3292",
           "text": "Hendra Utama",
           "data": "36"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "Hendri Yadi",
           "data": "37"
         },
         {
-          "color": "HRD",
+          "color": "#142E5F",
           "text": "Hengki",
           "data": "38"
         },
         {
-          "color": "RISK MANAGEMENT",
+          "color": "#FF0000",
           "text": "Herlina",
           "data": "39"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "Hidayat Rusanda",
           "data": "40"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "Husnil Qadri",
           "data": "41"
         },
         {
-          "color": "FINANCE",
+          "color": "#EE3292",
           "text": "Iman Rismawan",
           "data": "42"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Jofinus Halim",
           "data": "43"
         },
         {
-          "color": "FINANCE",
+          "color": "#EE3292",
           "text": "Jony Nus",
           "data": "44"
         },
         {
-          "color": "PLANNING",
+          "color": "#3B6D86",
           "text": "Karina Putri",
           "data": "45"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Kiki Krisnawati",
           "data": "46"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "Lampita Barutu",
           "data": "47"
         },
         {
-          "color": "FINANCE",
+          "color": "#EE3292",
           "text": "Lidya Christie",
           "data": "48"
         },
         {
-          "color": "PLANNING",
+          "color": "#3B6D86",
           "text": "Lilia Wati",
           "data": "49"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "Lutviani Aulia",
           "data": "50"
         },
         {
-          "color": "HRD",
+          "color": "#142E5F",
           "text": "Maria Anne",
           "data": "51"
         },
         {
-          "color": "MKT CAR",
+          "color": "#A53D99",
           "text": "Marthin Golto",
           "data": "52"
         },
         {
-          "color": "PLANNING",
+          "color": "#3B6D86",
           "text": "Mela Oktavia",
           "data": "53"
         },
         {
-          "color": "HRD",
+          "color": "#142E5F",
           "text": "Minetta Roselani",
           "data": "54"
         },
         {
-          "color": "PLANNING",
+          "color": "#3B6D86",
           "text": "Mochamad Dede",
           "data": "55"
         },
         {
-          "color": "FINANCE",
+          "color": "#EE3292",
           "text": "Mochammad Tirta",
           "data": "56"
         },
         {
-          "color": "HRD",
+          "color": "#142E5F",
           "text": "Muh Hasiruddin",
           "data": "57"
         },
         {
-          "color": "PLANNING",
+          "color": "#3B6D86",
           "text": "Muhammad Azis",
           "data": "58"
         },
         {
-          "color": "PLANNING",
+          "color": "#3B6D86",
           "text": "Muhammad Sholikin",
           "data": "59"
         },
         {
-          "color": "FINANCE",
+          "color": "#EE3292",
           "text": "Novi Maryanti",
           "data": "60"
         },
         {
-          "color": "PLANNING",
+          "color": "#3B6D86",
           "text": "Novielly",
           "data": "61"
         },
         {
-          "color": "FINANCE",
+          "color": "#EE3292",
           "text": "Pandu Perdana",
           "data": "62"
         },
         {
-          "color": "CREDIT",
+          "color": "#EEAF2F",
           "text": "Rahman Effendi",
           "data": "63"
         },
         {
-          "color": "CREDIT",
+          "color": "#EEAF2F",
           "text": "Rahman Torkis",
           "data": "64"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "Ramadina Putri",
           "data": "65"
         },
         {
-          "color": "RISK MANAGEMENT",
+          "color": "#FF0000",
           "text": "Ramos Rialdo",
           "data": "66"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "Retno Dwi",
           "data": "67"
         },
         {
-          "color": "MKT CAR",
+          "color": "#A53D99",
           "text": "Revelino Jerincho",
           "data": "68"
         },
         {
-          "color": "PLANNING",
+          "color": "#3B6D86",
           "text": "Rias Andrika",
           "data": "69"
         },
         {
-          "color": "MKT CAR",
+          "color": "#A53D99",
           "text": "Rizka Yunidarini",
           "data": "70"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Rizma Rosellini",
           "data": "71"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "Rizqi Aji",
           "data": "72"
         },
         {
-          "color": "HRD",
+          "color": "#142E5F",
           "text": "Rohadih",
           "data": "73"
         },
         {
-          "color": "HRD",
+          "color": "#142E5F",
           "text": "Romi",
           "data": "74"
         },
         {
-          "color": "CREDIT",
+          "color": "#EEAF2F",
           "text": "Ronny Haryadi",
           "data": "75"
         },
         {
-          "color": "MARKETING",
+          "color": "#3577BB",
           "text": "Rudy Gunawan",
           "data": "76"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Rully Kurniawan",
           "data": "77"
         },
         {
-          "color": "HRD",
+          "color": "#142E5F",
           "text": "Sandi Jua",
           "data": "78"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Sempurna Purba",
           "data": "79"
         },
         {
-          "color": "MKT CAR",
+          "color": "#A53D99",
           "text": "Sony Dwi",
           "data": "80"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "Sony Manggala",
           "data": "81"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Stefanny Lowendo",
           "data": "82"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "Susanto",
           "data": "83"
         },
         {
-          "color": "RISK MANAGEMENT",
+          "color": "#FF0000",
           "text": "Theresia Agustina",
           "data": "84"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Thomson Haposan",
           "data": "85"
         },
         {
-          "color": "MARKETING",
+          "color": "#3577BB",
           "text": "Veramutia Dahlan",
           "data": "86"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Vicky Agus",
           "data": "87"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "Vivan Ulva",
           "data": "88"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Weningtyas Galuh",
           "data": "89"
         },
         {
-          "color": "COLLECTION",
+          "color": "#9A2B91",
           "text": "Yayan Taryana",
           "data": "90"
         },
         {
-          "color": "FINANCE",
+          "color": "#EE3292",
           "text": "Yesi Yuliana",
           "data": "91"
         },
         {
-          "color": "IT",
+          "color": "#5CBA58",
           "text": "Yosep Nugroho",
           "data": "92"
         },
         {
-          "color": "HRD",
+          "color": "#142E5F",
           "text": "Yudhi Gunawan",
           "data": "93"
         },
         {
-          "color": "MARKETING",
+          "color": "#3577BB",
           "text": "Yuli Nurjanah",
           "data": "94"
         },
         {
-          "color": "HRD",
+          "color": "#142E5F",
           "text": "Zaelani Thaha",
           "data": "95"
         }
@@ -650,7 +650,7 @@ export default {
       cursorImage,
       cursorAngle: 0,
       cursorPosition: "edge",
-      cursorDistance: 0,
+      cursorDistance: -40,
       shiningDotsColor: "#ffffff",
       shiningDotsShineColor: "#ffd800",
       shiningDotsBorderColor: "#1e254c",

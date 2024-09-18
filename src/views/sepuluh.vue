@@ -156,50 +156,41 @@
         ],
         winnerResult: null,
         slices: [
-    {
-        "color": "CREDIT",
-        "text": "Alvio Fiorrie",
-        "data": ""
+{
+        "color": "#EEAF2F",
+        "text": "Alvio Fiorrie"
     },
-    {
-        "color": "CREDIT",
-        "text": "Andrew Christian",
-        "data": ""
+{
+        "color": "#EEAF2F",
+        "text": "Andrew Christian"
     },
-    {
-        "color": "CREDIT",
-        "text": "Avrillia Ika",
-        "data": ""
+{
+        "color": "#EEAF2F",
+        "text": "Avrillia Ika"
     },
-    {
-        "color": "CREDIT",
-        "text": "Cahyo Yudyono",
-        "data": ""
+{
+        "color": "#EEAF2F",
+        "text": "Cahyo Yudyono"
     },
-    {
-        "color": "CREDIT",
-        "text": "Dessy Estuningsih",
-        "data": ""
+{
+        "color": "#EEAF2F",
+        "text": "Dessy Estuningsih"
     },
-    {
-        "color": "CREDIT",
-        "text": "FX Bayu Triguno",
-        "data": ""
+{
+        "color": "#EEAF2F",
+        "text": "FX Bayu Triguno"
     },
-    {
-        "color": "CREDIT",
-        "text": "Rahman Effendi",
-        "data": ""
+{
+        "color": "#EEAF2F",
+        "text": "Rahman Effendi"
     },
-    {
-        "color": "CREDIT",
-        "text": "Rahman Torkis",
-        "data": "10"
+{
+        "color": "#EEAF2F",
+        "text": "Rahman Torkis"
     },
-    {
-        "color": "CREDIT",
-        "text": "Ronny Haryadi",
-        "data": ""
+{
+        "color": "#EEAF2F",
+        "text": "Ronny Haryadi"
     }
 ],
         isSpinning: false,
@@ -215,7 +206,7 @@
         cursorImage,
          cursorAngle: 0,
         cursorPosition: "edge",
-        cursorDistance: 0,
+        cursorDistance: -40,
         shiningDotsColor: "#ffffff",
         shiningDotsShineColor: "#ffd800",
         shiningDotsBorderColor: "#1e254c",
