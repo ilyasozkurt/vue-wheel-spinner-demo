@@ -22,7 +22,8 @@
       <div>
         <div class="fs-2 text-center">
           <div v-if="winnerResult">
-            <div class="modalx">
+                          <div class="modalx"><ConfettiExplosion :particleCount="500" :force="0.3" :duration="8000" />
+
               <div class=" card w-50 mx-auto text-center bd-radi ">
                 <div class="bg-primary text-white p-2">
                   <h4>Peserta Terpilih</h4>
@@ -35,6 +36,7 @@
                   </button>
                 </div>
               </div>
+              <ConfettiExplosion :particleCount="500" :force="0.3" :duration="8000" />  
             </div>
           </div>
           <div v-else-if="isSpinning">
@@ -312,11 +314,26 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  /* Semi-transparent background */
+  background-color: rgba(255, 255, 255, 0.836);
   z-index: 13;
+  display: flex;
   align-items: center;
   justify-content: center;
+  
+  /* Default state (hidden) */
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.9);
+    /* Animation setup */
+  animation: showModal 0.1s ease-in-out 0.5s forwards; /* 2s delay */
+}
+
+@keyframes showModal {
+  to {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
 }
 
 .bd-radi {

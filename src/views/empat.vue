@@ -33,6 +33,7 @@
                     <button type="button" class="btn mx-auto btn-primary text-white">
                       <RouterLink to="/lima" class="text-white">Simpan & Putar Kembali</RouterLink>
                     </button>
+         <ConfettiExplosion :particleCount="500" :force="0.3" :duration="8000" /> 
                   </div>
                 </div>
               </div>
