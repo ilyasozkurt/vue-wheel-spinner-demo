@@ -33,7 +33,7 @@
                     <h1 class="card-title text-primary">🎉 {{ winnerResult.text }} 🎉</h1>
                      <br>
                     <button type="button" class="btn mx-auto btn-primary text-white">
-                      <RouterLink to="/enam" class="text-white">Simpan & Putar Kembali</RouterLink>
+                      <RouterLink to="/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/enam" class="text-white">Simpan & Putar Kembali</RouterLink>
                     </button>
                   </div>
                 </div>
@@ -65,10 +65,10 @@
   
   </template>
   <script>
-  import VueWheelSpinner from "@/components/VueWheelSpinner.vue";
-  import "bootstrap/js/src/dropdown.js";
-  
-  import cursorImage from "../assets/cursor.svg";
+import VueWheelSpinner from "@/components/VueWheelSpinner.vue";
+import "bootstrap/js/src/dropdown.js";
+import ConfettiExplosion from "vue-confetti-explosion";
+import cursorImage from "../assets/cursor.svg";
   import wonSound from "../sounds/won.mp3";
   import clickSound from "../sounds/click.mp3";
   import hoverSound from "../sounds/hover.mp3";
@@ -77,10 +77,11 @@
   import ShiningDots from "@/components/ShiningDots.vue";
   
   export default {
-    components: {
-      ShiningDots,
-      VueWheelSpinner,
-    },
+     components: {
+    ShiningDots,
+    VueWheelSpinner,
+    ConfettiExplosion,
+  },
     data() {
       return {
         menang: [

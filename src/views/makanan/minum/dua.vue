@@ -22,8 +22,7 @@
       <div>
         <div class="fs-2 text-center">
           <div v-if="winnerResult">
-                          <div class="modalx">
-                            <ConfettiExplosion :particleCount="500" :force="0.3" :duration="8000" />
+                          <div class="modalx"><ConfettiExplosion :particleCount="500" :force="0.3" :duration="8000" />
 
               <div class=" card w-50 mx-auto text-center bd-radi ">
                 <div class="bg-primary text-white p-2">
@@ -67,20 +66,19 @@
 <script>
 import VueWheelSpinner from "@/components/VueWheelSpinner.vue";
 import "bootstrap/js/src/dropdown.js";
-import ConfettiExplosion from "vue-confetti-explosion";
-import cursorImage from "../assets/cursor.svg";
-import wonSound from "../sounds/won.mp3";
-import clickSound from "../sounds/click.mp3";
-import hoverSound from "../sounds/hover.mp3";
-import leaveSound from "../sounds/leave.mp3";
-import spinningSound from "../sounds/spinning.mp3";
+
+import cursorImage from "@/assets/cursor.svg";
+import wonSound from "@/sounds/won.mp3";
+import clickSound from "@/sounds/click.mp3";
+import hoverSound from "@/sounds/hover.mp3";
+import leaveSound from "@/sounds/leave.mp3";
+import spinningSound from "@/sounds/spinning.mp3";
 import ShiningDots from "@/components/ShiningDots.vue";
 
 export default {
   components: {
     ShiningDots,
     VueWheelSpinner,
-    ConfettiExplosion,
   },
   data() {
     return {

@@ -23,7 +23,7 @@
           <div class="fs-2 text-center">
             <div v-if="winnerResult">
                             <div class="modalx"><ConfettiExplosion :particleCount="500" :force="0.3" :duration="8000" />
-
+                            
                 <div class=" card w-50 mx-auto text-center bd-radi ">
                   <div class="bg-primary text-white p-2">
                     <h4>Peserta Terpilih</h4>
@@ -32,7 +32,7 @@
                     <h1 class="card-title text-primary">🎉 {{ winnerResult.text }} 🎉</h1>
                      <br>
                     <button type="button" class="btn mx-auto btn-primary text-white">
-                      <RouterLink to="/" class="text-white">Simpan & Putar Kembali</RouterLink>
+                      <RouterLink to="/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/" class="text-white">Simpan & Putar Kembali</RouterLink>
                     </button>
                   </div>
                 </div>
@@ -64,10 +64,10 @@
   
   </template>
   <script>
-  import VueWheelSpinner from "@/components/VueWheelSpinner.vue";
-  import "bootstrap/js/src/dropdown.js";
-  
-  import cursorImage from "../assets/cursor.svg";
+import VueWheelSpinner from "@/components/VueWheelSpinner.vue";
+import "bootstrap/js/src/dropdown.js";
+import ConfettiExplosion from "vue-confetti-explosion";
+import cursorImage from "../assets/cursor.svg";
   import wonSound from "../sounds/won.mp3";
   import clickSound from "../sounds/click.mp3";
   import hoverSound from "../sounds/hover.mp3";
@@ -76,10 +76,11 @@
   import ShiningDots from "@/components/ShiningDots.vue";
   
   export default {
-    components: {
-      ShiningDots,
-      VueWheelSpinner,
-    },
+     components: {
+    ShiningDots,
+    VueWheelSpinner,
+    ConfettiExplosion,
+  },
     data() {
       return {
         menang: [

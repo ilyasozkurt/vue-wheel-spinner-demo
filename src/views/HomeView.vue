@@ -34,7 +34,7 @@
                   <h1 class="card-title text-primary">🎉 {{ winnerResult.text }} 🎉</h1>
                    <br>
                   <button type="button" class="btn mx-auto btn-primary text-white">
-                    <RouterLink to="/dua" class="text-white">Simpan & Putar Kembali</RouterLink>
+                    <RouterLink to="/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/dua" class="text-white">Simpan & Putar Kembali</RouterLink>
                   </button>
                 </div>
               </div>
@@ -56,8 +56,6 @@
 import VueWheelSpinner from "@/components/VueWheelSpinner.vue";
 import "bootstrap/js/src/dropdown.js";
 import ConfettiExplosion from "vue-confetti-explosion";
-
-
 import cursorImage from "../assets/cursor.svg";
 import wonSound from "../sounds/won.mp3";
 import clickSound from "../sounds/click.mp3";
