@@ -280,9 +280,9 @@ import cursorImage from "../assets/cursor.svg";
         "color": "#9A2B91",
         "text": "Hendri Yadi"
     },
-{
+    {
         "color": "#142E5F",
-        "text": "Hengki"
+        "text": "Zaelani Thaha"
     },
 {
         "color": "#9A2B91",
@@ -454,7 +454,7 @@ import cursorImage from "../assets/cursor.svg";
     },
 {
         "color": "#142E5F",
-        "text": "Zaelani Thaha"
+        "text": "Hengki"
     }
 ],
         isSpinning: false,
