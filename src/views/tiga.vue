@@ -26,7 +26,7 @@
 
               <div class=" card w-50 mx-auto text-center bd-radi ">
                 <div class="bg-primary text-white p-2">
-                  <h4>Peserta Terpilih</h4>
+                  <h4>PHOENIX PRESENTER</h4>
                 </div>
                 <div class="card-body p-4">
                   <h1 class="card-title text-primary">🎉 {{ winnerResult.text }} 🎉</h1>
