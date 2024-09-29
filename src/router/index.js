@@ -10,7 +10,7 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/dua',
+      path: '/dua',
       name: 'dua',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -18,7 +18,7 @@ const router = createRouter({
       component: () => import('../views/dua.vue')
     },
     {
-      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/tiga',
+      path: '/tiga',
       name: 'tiga',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -26,7 +26,7 @@ const router = createRouter({
       component: () => import('../views/tiga.vue')
     },
     {
-      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/empat',
+      path: '/empat',
       name: 'empat',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -34,7 +34,7 @@ const router = createRouter({
       component: () => import('../views/empat.vue')
     },
     {
-      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/lima',
+      path: '/lima',
       name: 'lima',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -42,7 +42,7 @@ const router = createRouter({
       component: () => import('../views/lima.vue')
     },
     {
-      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/enam',
+      path: '/enam',
       name: 'enam',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -50,7 +50,7 @@ const router = createRouter({
       component: () => import('../views/enam.vue')
     },
     {
-      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/tujuh',
+      path: '/tujuh',
       name: 'tujuh',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -58,7 +58,7 @@ const router = createRouter({
       component: () => import('../views/tujuh.vue')
     },
     {
-      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/delapan',
+      path: '/delapan',
       name: 'delapan',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -66,7 +66,7 @@ const router = createRouter({
       component: () => import('../views/delapan.vue')
     },
     {
-      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/sembilan',
+      path: '/sembilan',
       name: 'sembilan',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -74,7 +74,7 @@ const router = createRouter({
       component: () => import('../views/sembilan.vue')
     },
     {
-      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/sepuluh',
+      path: '/sepuluh',
       name: 'sepuluh',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
