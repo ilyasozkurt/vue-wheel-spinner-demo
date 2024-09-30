@@ -22,8 +22,8 @@
       <div>
         <div class="fs-2 text-center">
           <div v-if="winnerResult">
-                          <div class="modalx"><ConfettiExplosion :particleCount="500" :force="0.3" :duration="8000" />
-
+            <div class="modalx">
+              <ConfettiExplosion :particleCount="500" :force="0.3" :duration="8000" />
               <div class=" card w-50 mx-auto text-center bd-radi ">
                 <div class="bg-primary text-white p-2">
                   <h4>PHOENIX PRESENTER</h4>
@@ -159,437 +159,437 @@ export default {
       ],
       winnerResult: null,
       slices: [
-    {
-        "color": "#5CBA58",
-        "text": "Agus Budi",
-        "data": ""
-    },
-    {
-        "color": "#3577BB",
-        "text": "Agus Susanto",
-        "data": ""
-    },
-{
-        "color": "#3B6D86",
-        "text": "Akmal",
-        "data": ""
-    },
-{
-        "color": "#3B6D86",
-        "text": "Alexander Rumawas",
-        "data": ""
-    },
-{
-        "color": "#EEAF2F",
-        "text": "Alvio Fiorrie",
-        "data": ""
-    },
-{
-        "color": "#9A2B91",
-        "text": "Andarto",
-        "data": ""
-    },
-{
-        "color": "#A53D99",
-        "text": "Andree Cresenda",
-        "data": ""
-    },
-{
-        "color": "#EEAF2F",
-        "text": "Andrew Christian",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Aspri Sigit",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Asrul Fadillah",
-        "data": ""
-    },
-{
-        "color": "#EEAF2F",
-        "text": "Avrillia Ika",
-        "data": ""
-    },
-    {
-        "color": "#3577BB",
-        "text": "Bramanti Dwi",
-        "data": ""
-    },
-{
-        "color": "#EEAF2F",
-        "text": "Cahyo Yudyono",
-        "data": ""
-    },
-{
-        "color": "#FF0002",
-        "text": "Christin Melinda",
-        "data": ""
-    },
-{
-        "color": "#9A2B91",
-        "text": "David Febrian",
-        "data": ""
-    },
-{
-        "color": "#FF0002",
-        "text": "Deky Soesilo",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Deny Yuliantoro",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Dery Darmawan",
-        "data": ""
-    },
-{
-        "color": "#EEAF2F",
-        "text": "Dessy Estuningsih",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Dian Iskandar",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Dian Perdhana",
-        "data": ""
-    },
-{
-        "color": "#3B6D86",
-        "text": "Dimas Septiandri",
-        "data": ""
-    },
-{
-        "color": "#9A2B91",
-        "text": "Dirgo Honnesa",
-        "data": ""
-    },
-{
-        "color": "#A53D99",
-        "text": "Dito Kurniawan",
-        "data": ""
-    },
-{
-        "color": "#9A2B91",
-        "text": "Donna Astuti",
-        "data": ""
-    },
-{
-        "color": "#3B6D86",
-        "text": "Eko Irianto",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Eko Sulistiyo",
-        "data": ""
-    },
-{
-        "color": "#142E5F",
-        "text": "Erni",
-        "data": ""
-    },
-{
-        "color": "#9A2B91",
-        "text": "Erwin Widiarto",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Fajar Nugroho",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Fransiska Amalia",
-        "data": ""
-    },
-{
-        "color": "#EEAF2F",
-        "text": "FX Bayu Triguno",
-        "data": ""
-    },
-{
-        "color": "#FF0002",
-        "text": "Giovany Wihelmina",
-        "data": ""
-    },
-{
-        "color": "#9A2B91",
-        "text": "Hendra Ilham",
-        "data": ""
-    },
-{
-        "color": "#9A2B91",
-        "text": "Hendri Yadi",
-        "data": ""
-    },
-{
-        "color": "#142E5F",
-        "text": "Hengki",
-        "data": "5"
-    },
-{
-        "color": "#FF0002",
-        "text": "Herlina",
-        "data": ""
-    },
-{
-        "color": "#9A2B91",
-        "text": "Hidayat Rusanda",
-        "data": ""
-    },
-{
-        "color": "#9A2B91",
-        "text": "Husnil Qadri",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Jofinus Halim",
-        "data": ""
-    },
-{
-        "color": "#3B6D86",
-        "text": "Karina Putri",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Kiki Krisnawati",
-        "data": ""
-    },
-{
-        "color": "#9A2B91",
-        "text": "Lampita Barutu",
-        "data": "7"
-    },
-{
-        "color": "#3B6D86",
-        "text": "Lilia Wati",
-        "data": ""
-    },
-{
-        "color": "#9A2B91",
-        "text": "Lutviani Aulia",
-        "data": ""
-    },
-{
-        "color": "#142E5F",
-        "text": "Maria Anne",
-        "data": ""
-    },
-{
-        "color": "#A53D99",
-        "text": "Marthin Golto",
-        "data": "3"
-    },
-{
-        "color": "#3B6D86",
-        "text": "Mela Oktavia",
-        "data": ""
-    },
-{
-        "color": "#142E5F",
-        "text": "Minetta Roselani",
-        "data": ""
-    },
-{
-        "color": "#3B6D86",
-        "text": "Mochamad Dede",
-        "data": ""
-    },
-{
-        "color": "#142E5F",
-        "text": "Muh Hasiruddin",
-        "data": ""
-    },
-{
-        "color": "#3B6D86",
-        "text": "Muhammad Azis",
-        "data": "8"
-    },
-{
-        "color": "#3B6D86",
-        "text": "Muhammad Sholikin",
-        "data": ""
-    },
-{
-        "color": "#3B6D86",
-        "text": "Novielly",
-        "data": ""
-    },
-{
-        "color": "#EEAF2F",
-        "text": "Rahman Effendi",
-        "data": ""
-    },
-{
-        "color": "#EEAF2F",
-        "text": "Rahman Torkis",
-        "data": "10"
-    },
-{
-        "color": "#9A2B91",
-        "text": "Ramadina Putri",
-        "data": ""
-    },
-{
-        "color": "#FF0002",
-        "text": "Ramos Rialdo",
-        "data": ""
-    },
-{
-        "color": "#9A2B91",
-        "text": "Retno Dwi",
-        "data": ""
-    },
-{
-        "color": "#A53D99",
-        "text": "Revelino Jerincho",
-        "data": ""
-    },
-{
-        "color": "#3B6D86",
-        "text": "Rias Andrika",
-        "data": ""
-    },
-{
-        "color": "#A53D99",
-        "text": "Rizka Yunidarini",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Rizma Rosellini",
-        "data": ""
-    },
-{
-        "color": "#9A2B91",
-        "text": "Rizqi Aji",
-        "data": ""
-    },
-{
-        "color": "#142E5F",
-        "text": "Rohadih",
-        "data": ""
-    },
-{
-        "color": "#142E5F",
-        "text": "Romi",
-        "data": ""
-    },
-{
-        "color": "#EEAF2F",
-        "text": "Ronny Haryadi",
-        "data": ""
-    },
-    {
-        "color": "#3577BB",
-        "text": "Rudy Gunawan",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Rully Kurniawan",
-        "data": ""
-    },
-{
-        "color": "#142E5F",
-        "text": "Sandi Jua",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Sempurna Purba",
-        "data": "6"
-    },
-{
-        "color": "#A53D99",
-        "text": "Sony Dwi",
-        "data": ""
-    },
-{
-        "color": "#9A2B91",
-        "text": "Sony Manggala",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Stefanny Lowendo",
-        "data": ""
-    },
-{
-        "color": "#9A2B91",
-        "text": "Susanto",
-        "data": ""
-    },
-{
-        "color": "#FF0002",
-        "text": "Theresia Agustina",
-        "data": "4"
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Thomson Haposan",
-        "data": ""
-    },
-    {
-        "color": "#3577BB",
-        "text": "Veramutia Dahlan",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Vicky Agus",
-        "data": ""
-    },
-{
-        "color": "#9A2B91",
-        "text": "Vivan Ulva",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Weningtyas Galuh",
-        "data": ""
-    },
-{
-        "color": "#9A2B91",
-        "text": "Yayan Taryana",
-        "data": ""
-    },
-    {
-        "color": "#5CBA58",
-        "text": "Yosep Nugroho",
-        "data": ""
-    },
-{
-        "color": "#142E5F",
-        "text": "Yudhi Gunawan",
-        "data": ""
-    },
-    {
-        "color": "#3577BB",
-        "text": "Yuli Nurjanah",
-        "data": "9"
-    },
-{
-        "color": "#142E5F",
-        "text": "Zaelani Thaha",
-        "data": ""
-    }
-],
+        {
+          "color": "#5CBA58",
+          "text": "Agus Budi",
+          "data": ""
+        },
+        {
+          "color": "#3577BB",
+          "text": "Agus Susanto",
+          "data": ""
+        },
+        {
+          "color": "#3B6D86",
+          "text": "Akmal",
+          "data": ""
+        },
+        {
+          "color": "#3B6D86",
+          "text": "Alexander Rumawas",
+          "data": ""
+        },
+        {
+          "color": "#EEAF2F",
+          "text": "Alvio Fiorrie",
+          "data": ""
+        },
+        {
+          "color": "#9A2B91",
+          "text": "Andarto",
+          "data": ""
+        },
+        {
+          "color": "#A53D99",
+          "text": "Andree Cresenda",
+          "data": ""
+        },
+        {
+          "color": "#EEAF2F",
+          "text": "Andrew Christian",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Aspri Sigit",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Asrul Fadillah",
+          "data": ""
+        },
+        {
+          "color": "#EEAF2F",
+          "text": "Avrillia Ika",
+          "data": ""
+        },
+        {
+          "color": "#3577BB",
+          "text": "Bramanti Dwi",
+          "data": ""
+        },
+        {
+          "color": "#EEAF2F",
+          "text": "Cahyo Yudyono",
+          "data": ""
+        },
+        {
+          "color": "#FF0002",
+          "text": "Christin Melinda",
+          "data": ""
+        },
+        {
+          "color": "#9A2B91",
+          "text": "David Febrian",
+          "data": ""
+        },
+        {
+          "color": "#FF0002",
+          "text": "Deky Soesilo",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Deny Yuliantoro",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Dery Darmawan",
+          "data": ""
+        },
+        {
+          "color": "#EEAF2F",
+          "text": "Dessy Estuningsih",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Dian Iskandar",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Dian Perdhana",
+          "data": ""
+        },
+        {
+          "color": "#3B6D86",
+          "text": "Dimas Septiandri",
+          "data": ""
+        },
+        {
+          "color": "#9A2B91",
+          "text": "Dirgo Honnesa",
+          "data": ""
+        },
+        {
+          "color": "#A53D99",
+          "text": "Dito Kurniawan",
+          "data": ""
+        },
+        {
+          "color": "#9A2B91",
+          "text": "Donna Astuti",
+          "data": ""
+        },
+        {
+          "color": "#3B6D86",
+          "text": "Eko Irianto",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Eko Sulistiyo",
+          "data": ""
+        },
+        {
+          "color": "#142E5F",
+          "text": "Erni",
+          "data": ""
+        },
+        {
+          "color": "#9A2B91",
+          "text": "Erwin Widiarto",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Fajar Nugroho",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Fransiska Amalia",
+          "data": ""
+        },
+        {
+          "color": "#EEAF2F",
+          "text": "FX Bayu Triguno",
+          "data": ""
+        },
+        {
+          "color": "#FF0002",
+          "text": "Giovany Wihelmina",
+          "data": ""
+        },
+        {
+          "color": "#9A2B91",
+          "text": "Hendra Ilham",
+          "data": ""
+        },
+        {
+          "color": "#9A2B91",
+          "text": "Hendri Yadi",
+          "data": ""
+        },
+        {
+          "color": "#142E5F",
+          "text": "Hengki",
+          "data": "5"
+        },
+        {
+          "color": "#FF0002",
+          "text": "Herlina",
+          "data": ""
+        },
+        {
+          "color": "#9A2B91",
+          "text": "Hidayat Rusanda",
+          "data": ""
+        },
+        {
+          "color": "#9A2B91",
+          "text": "Husnil Qadri",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Jofinus Halim",
+          "data": ""
+        },
+        {
+          "color": "#3B6D86",
+          "text": "Karina Putri",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Kiki Krisnawati",
+          "data": ""
+        },
+        {
+          "color": "#9A2B91",
+          "text": "Lampita Barutu",
+          "data": "7"
+        },
+        {
+          "color": "#3B6D86",
+          "text": "Lilia Wati",
+          "data": ""
+        },
+        {
+          "color": "#9A2B91",
+          "text": "Lutviani Aulia",
+          "data": ""
+        },
+        {
+          "color": "#142E5F",
+          "text": "Maria Anne",
+          "data": ""
+        },
+        {
+          "color": "#A53D99",
+          "text": "Marthin Golto",
+          "data": "3"
+        },
+        {
+          "color": "#3B6D86",
+          "text": "Mela Oktavia",
+          "data": ""
+        },
+        {
+          "color": "#142E5F",
+          "text": "Minetta Roselani",
+          "data": ""
+        },
+        {
+          "color": "#3B6D86",
+          "text": "Mochamad Dede",
+          "data": ""
+        },
+        {
+          "color": "#142E5F",
+          "text": "Muh Hasiruddin",
+          "data": ""
+        },
+        {
+          "color": "#3B6D86",
+          "text": "Muhammad Azis",
+          "data": "8"
+        },
+        {
+          "color": "#3B6D86",
+          "text": "Muhammad Sholikin",
+          "data": ""
+        },
+        {
+          "color": "#3B6D86",
+          "text": "Novielly",
+          "data": ""
+        },
+        {
+          "color": "#EEAF2F",
+          "text": "Rahman Effendi",
+          "data": ""
+        },
+        {
+          "color": "#EEAF2F",
+          "text": "Rahman Torkis",
+          "data": "10"
+        },
+        {
+          "color": "#9A2B91",
+          "text": "Ramadina Putri",
+          "data": ""
+        },
+        {
+          "color": "#FF0002",
+          "text": "Ramos Rialdo",
+          "data": ""
+        },
+        {
+          "color": "#9A2B91",
+          "text": "Retno Dwi",
+          "data": ""
+        },
+        {
+          "color": "#A53D99",
+          "text": "Revelino Jerincho",
+          "data": ""
+        },
+        {
+          "color": "#3B6D86",
+          "text": "Rias Andrika",
+          "data": ""
+        },
+        {
+          "color": "#A53D99",
+          "text": "Rizka Yunidarini",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Rizma Rosellini",
+          "data": ""
+        },
+        {
+          "color": "#9A2B91",
+          "text": "Rizqi Aji",
+          "data": ""
+        },
+        {
+          "color": "#142E5F",
+          "text": "Rohadih",
+          "data": ""
+        },
+        {
+          "color": "#142E5F",
+          "text": "Romi",
+          "data": ""
+        },
+        {
+          "color": "#EEAF2F",
+          "text": "Ronny Haryadi",
+          "data": ""
+        },
+        {
+          "color": "#3577BB",
+          "text": "Rudy Gunawan",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Rully Kurniawan",
+          "data": ""
+        },
+        {
+          "color": "#142E5F",
+          "text": "Sandi Jua",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Sempurna Purba",
+          "data": "6"
+        },
+        {
+          "color": "#A53D99",
+          "text": "Sony Dwi",
+          "data": ""
+        },
+        {
+          "color": "#9A2B91",
+          "text": "Sony Manggala",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Stefanny Lowendo",
+          "data": ""
+        },
+        {
+          "color": "#9A2B91",
+          "text": "Susanto",
+          "data": ""
+        },
+        {
+          "color": "#FF0002",
+          "text": "Theresia Agustina",
+          "data": "4"
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Thomson Haposan",
+          "data": ""
+        },
+        {
+          "color": "#3577BB",
+          "text": "Veramutia Dahlan",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Vicky Agus",
+          "data": ""
+        },
+        {
+          "color": "#9A2B91",
+          "text": "Vivan Ulva",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Weningtyas Galuh",
+          "data": ""
+        },
+        {
+          "color": "#9A2B91",
+          "text": "Yayan Taryana",
+          "data": ""
+        },
+        {
+          "color": "#5CBA58",
+          "text": "Yosep Nugroho",
+          "data": ""
+        },
+        {
+          "color": "#142E5F",
+          "text": "Yudhi Gunawan",
+          "data": ""
+        },
+        {
+          "color": "#3577BB",
+          "text": "Yuli Nurjanah",
+          "data": "9"
+        },
+        {
+          "color": "#142E5F",
+          "text": "Zaelani Thaha",
+          "data": ""
+        }
+      ],
       isSpinning: false,
       defaultWinner: 46,
 
@@ -601,7 +601,7 @@ export default {
         spinning: spinningSound,
       },
       cursorImage,
-            cursorAngle: 0,
+      cursorAngle: 0,
       cursorPosition: "edge",
       cursorDistance: -40,
       shiningDotsColor: "#ffffff",
@@ -682,8 +682,8 @@ export default {
 
 <style>
 .modalx {
-  padding: 20px;
-  padding-top: 20%;
+  padding: 0px;
+  padding-top: 0%;
   position: fixed;
   top: 0;
   left: 0;
@@ -694,14 +694,15 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   /* Default state (hidden) */
   opacity: 0;
   visibility: hidden;
   transform: scale(0.9);
 
-    /* Animation setup */
-  animation: showModal 0.1s ease-in-out 0.5s forwards; /* 2s delay */
+  /* Animation setup */
+  animation: showModal 0.1s ease-in-out 0.5s forwards;
+  /* 2s delay */
 }
 
 @keyframes showModal {

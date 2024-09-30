@@ -308,8 +308,8 @@ export default {
 
 <style>
 .modalx {
-  padding: 20px;
-  padding-top: 20%;
+ padding: 0px;
+  padding-top: 0%;
   position: fixed;
   top: 0;
   left: 0;

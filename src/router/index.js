@@ -10,7 +10,15 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/dua',
+      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/satu',
+      name: 'satu',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/satu.vue')
+    },
+    {
+      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/dua',
       name: 'dua',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -18,7 +26,7 @@ const router = createRouter({
       component: () => import('../views/dua.vue')
     },
     {
-      path: '/tiga',
+      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/tiga',
       name: 'tiga',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route

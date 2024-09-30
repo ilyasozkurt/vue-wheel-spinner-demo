@@ -34,7 +34,7 @@
                   <h1 class="card-title text-primary">🎉 {{ winnerResult.text }} 🎉</h1>
                    <br>
                   <button type="button" class="btn mx-auto btn-primary text-white">
-                    <RouterLink to="/dua" class="text-white">Simpan & Putar Kembali</RouterLink>
+                    <RouterLink to="/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/satu" class="text-white">Simpan & Putar Kembali</RouterLink>
                   </button>
                 </div>
               </div>
@@ -883,8 +883,8 @@ export default {
 
 <style>
 .modalx {
-  padding: 20px;
-  padding-top: 20%;
+  padding: 0px;
+  padding-top: 0%;
   position: fixed;
   top: 0;
   left: 0;
