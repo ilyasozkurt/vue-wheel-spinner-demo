@@ -29,7 +29,6 @@
                   <h4>PHOENIX PRESENTER</h4>
                 </div>
                 <div class="card-body p-4">
-
                   <h1 class="card-title text-primary">🎉 {{ winnerResult.text }} 🎉</h1>
                   <br>
                   <button type="button" class="btn mx-auto btn-primary text-white">
