@@ -7,7 +7,8 @@ import fullscreen from 'vue-fullscreen'
 
 <template>
 <HelloWorld />
-  <main class="container" style="background-image: url(https://play.tailwindcss.com/img/grid.svg); background-color: transparent;" >
+  <main class="container" style="background-image: url(https://play.tailwindcss.com/img/grid.svg); 
+  background-color: transparent; margin-top: -40px;" >
     <RouterView />
   </main>
 </template>
