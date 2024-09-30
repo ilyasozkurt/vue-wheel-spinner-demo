@@ -34,7 +34,7 @@ const router = createRouter({
       component: () => import('../views/tiga.vue')
     },
     {
-      path: '/empat',
+      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/empat',
       name: 'empat',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -42,7 +42,7 @@ const router = createRouter({
       component: () => import('../views/empat.vue')
     },
     {
-      path: '/lima',
+      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/lima',
       name: 'lima',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -50,7 +50,7 @@ const router = createRouter({
       component: () => import('../views/lima.vue')
     },
     {
-      path: '/enam',
+      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/enam',
       name: 'enam',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -58,7 +58,7 @@ const router = createRouter({
       component: () => import('../views/enam.vue')
     },
     {
-      path: '/tujuh',
+      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/tujuh',
       name: 'tujuh',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -66,7 +66,7 @@ const router = createRouter({
       component: () => import('../views/tujuh.vue')
     },
     {
-      path: '/delapan',
+      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/delapan',
       name: 'delapan',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -74,7 +74,7 @@ const router = createRouter({
       component: () => import('../views/delapan.vue')
     },
     {
-      path: '/sembilan',
+      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/sembilan',
       name: 'sembilan',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
@@ -82,7 +82,7 @@ const router = createRouter({
       component: () => import('../views/sembilan.vue')
     },
     {
-      path: '/sepuluh',
+      path: '/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/sepuluh',
       name: 'sepuluh',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
