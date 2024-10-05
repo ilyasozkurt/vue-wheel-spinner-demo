@@ -34,7 +34,7 @@
                   <h1 class="card-title text-primary">🎉 {{ winnerResult.text }} 🎉</h1>
                    <br>
                   <button type="button" class="btn mx-auto btn-primary text-white">
-                    <RouterLink to="/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/satu" class="text-white">Simpan & Putar Kembali</RouterLink>
+                    <RouterLink to="/services/randomnamepicker/uniqueidentifier/xyz9876543/generator/chooseyourwinner/selectrandomly/dua" class="text-white">Simpan & Putar Kembali</RouterLink>
                   </button>
                 </div>
               </div>
