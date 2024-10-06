@@ -51,8 +51,8 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 
 .spin-button {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto;
   aspect-ratio: 1 / 1;
   font-size: 20px;
