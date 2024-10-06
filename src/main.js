@@ -1,8 +1,12 @@
 import './style.css'
+import './assets/main.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
-import './color-modes.js'
+import router from './router'
 
-createApp(App)
-    .mount('#app')
+const app = createApp(App)
+
+app.use(router)
+
+app.mount('#app')
