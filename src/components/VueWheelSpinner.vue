@@ -146,7 +146,7 @@ function drawLabel(context, centerX, centerY, radius, startAngle, endAngle, fill
   context.textAlign = 'right';
   context.textBaseline = 'middle';
   context.fillStyle = getContrastingColor(fillColor);
-  context.font = 'bold 12px Titillium Web';
+  context.font = 'bold 16px Titillium Web';
   context.fillText(sliceLabel, radius - 10, 0);
   context.restore();
 }
