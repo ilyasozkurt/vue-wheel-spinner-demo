@@ -43,6 +43,9 @@
                 <input v-model="slice.color" class="form-control form-control-color border-0" type="color">
               </div>
               <input v-model="slice.text" class="form-control" type="text">
+              <div class="input-group-text p-0">
+                <input v-model="slice.textColor" class="form-control form-control-color border-0" type="color">
+              </div>
               <button class="btn btn-danger" @click="slices.splice(index, 1)" :disabled="isSpinning">
                 <span class="spinner-border spinner-border-sm me-2" v-if="isSpinning" role="status">
                   <span class="visually-hidden">Loading...</span>
@@ -53,7 +56,8 @@
           </div>
 
           <div class="text-center">
-            <button class="btn btn-primary" @click="slices.push({ color: getRandomColor(), text: 'New Slice' })" :disabled="isSpinning">
+            <button class="btn btn-primary" @click="handleAddNewSlice"
+                    :disabled="isSpinning">
               <span class="spinner-border spinner-border-sm me-2" v-if="isSpinning" role="status">
                 <span class="visually-hidden">Loading...</span>
               </span>
@@ -72,7 +76,8 @@
               <label for="cursor_angle" class="form-label">Cursor Angle</label>
               <div class="input-group">
                 <input v-model="cursorAngle" id="cursor_angle" class="form-control" type="number" max="360" min="0">
-                <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                        data-bs-toggle="dropdown" aria-expanded="false">
                   <span class="visually-hidden">Toggle Dropdown</span>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-end">
@@ -90,10 +95,25 @@
 
           <div class="mb-3">
             <label for="cursor_position" class="form-label">Cursor Position</label>
-            <select v-model="cursorPosition" id="cursor_position" @change="handleCursorPositionChange" class="form-select">
+            <select v-model="cursorPosition" id="cursor_position" @change="handleCursorPositionChange"
+                    class="form-select">
               <option value="edge">Edge</option>
               <option value="center">Center</option>
             </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="slice_text_position" class="form-label">Slice Text Position</label>
+            <select v-model="sliceTextPosition" id="slice_text_position" class="form-select">
+              <option value="edge">Edge</option>
+              <option value="center">Center</option>
+              <option value="middle">Middle</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="slice_font_style" class="form-label">Slice Font Style</label>
+            <input v-model="sliceFontStyle" id="slice_font_style" class="form-control" type="text">
           </div>
 
         </fieldset>
@@ -103,7 +123,8 @@
           <legend>Shining Dots</legend>
 
           <div class="alert alert-info" role="alert">
-            Shining dots is not a part of the vue-wheel-spinner component. It's a separate component which built in this demo.
+            Shining dots is not a part of the vue-wheel-spinner component. It's a separate component which built in this
+            demo.
             You can create different external ornaments like this.
           </div>
 
@@ -167,6 +188,8 @@
             <VueWheelSpinner
                 ref="spinner"
                 :slices="slices"
+                :slice-text-position="sliceTextPosition"
+                :slice-font-style="sliceFontStyle"
                 :winner-index="defaultWinner"
                 :sounds="sounds"
                 :cursor-angle="cursorAngle"
@@ -211,8 +234,8 @@
       </div>
 
     </div>
-  </main>
 
+  </main>
 
 </template>
 
@@ -237,6 +260,8 @@ export default {
     return {
       winnerResult: null,
       slices: this.createColorTextArray(8),
+      sliceTextPosition: 'edge',
+      sliceFontStyle: 'bold 16px Arial',
       isSpinning: false,
       defaultWinner: 0,
       sounds: {
@@ -273,19 +298,36 @@ export default {
     getRandomColor() {
       return '#' + Math.floor(Math.random() * 16777215).toString(16);
     },
+    getContrastingColor(bgColor) {
+      let color = bgColor;
+      if (bgColor.charAt(0) === '#') {
+        color = bgColor.substring(1, 7);
+      }
+
+      const r = parseInt(color.substring(0, 2), 16);
+      const g = parseInt(color.substring(2, 4), 16);
+      const b = parseInt(color.substring(4, 6), 16);
+
+      const brightness = (r * 299 + g * 587 + b * 114) / 1000;
+
+      return brightness > 125 ? '#000000' : '#ffffff';
+    },
     createColorTextArray(count) {
-      const result = [];
+      const results = [];
       const colors = [
         '#eb4d4b',
         '#ffffff',
       ];  // Predefined colors
       for (let i = 1; i <= count; i++) {
-        result.push({
-          color: colors[i % colors.length],  // Alternate colors
+        let color = colors[i % colors.length]; // Alternate colors
+        results.push({
+          color: color,  // Alternate colors
           text: 'Slice ' + i,        // Convert number to string
+          textColor: this.getContrastingColor(color) // Get contrasting color
         });
       }
-      return result;
+      console.log(results);
+      return results;
     },
     playAudio(audio) {
       if (audio) {
@@ -317,6 +359,14 @@ export default {
       } else {
         this.cursorDistance = 0;
       }
+    },
+    handleAddNewSlice() {
+      let randomColor = this.getRandomColor();
+      this.slices.push({
+        color: randomColor,
+        text: 'New Slice',
+        textColor: this.getContrastingColor(randomColor)
+      });
     },
     spinFor(index) {
       this.defaultWinner = index;
